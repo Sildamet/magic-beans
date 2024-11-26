@@ -10,18 +10,6 @@
     "name": "Sildamet"
     }
   ],
- "version": "0.0.2",
- "languages": [
-  {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
-  }
-],
- /* "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  } */
-  "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/blob/master/module.json"
+ "version": "0.0.2"
+ 
 }
