@@ -1,15 +1,62 @@
 {
-  "id": "module",
-  "title": "Sildamet's PF2e Custom Items",
-  "url": "https://github.com/Sildamet/magic-beans",
-  "manifest": "https://github.com/Sildamet/magic-beans/releases/latest/download/module.json",
-  "download": "https://github.com/Sildamet/magic-beans/releases/latest/download/module.zip",
-  "description": "A very simple module created to have homebrew options added as base items to PF2e.",
-  "authors": [
-    {
-    "name": "Sildamet"
-    }
-  ],
- "version": "0.0.2"
- 
+	"id": "magic-beans",
+	"name": "magic-beans",
+	"title": "Sildamet's PF2e Custom Items",
+	"url": "https://github.com/Sildamet/magic-beans",
+	"manifest": "https://github.com/Sildamet/magic-beans/releases/latest/download/module.json",
+	"download": "https://github.com/Sildamet/magic-beans/releases/latest/download/module.zip",
+	"description": "A very simple module created to have homebrew options added as base items to PF2e.",
+	"authors": [
+		{
+			"name": "Sildamet"
+		},
+		{
+			"name": "BeowulfBjornson"
+		}
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		}
+	],
+	"version": "0.0.2",
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+				"compatibility": {
+					"minimum": "6.5.0"
+				}
+			}
+		]
+	},
+	"packs": [
+		{
+			"name": "equipment",
+			"label": "Equipment",
+			"path": "packs/equipment",
+			"type": "Item",
+			"ownership": {
+				"PLAYER": "OBSERVER",
+				"ASSISTANT": "OWNER"
+			},
+			"system": "pf2e",
+			"flags": {
+
+			}
+		}
+	],
+	"flags": {
+		"magic-beans": {
+            "pf2e-homebrew": {
+                "baseWeapons": {
+                    "skelligan-axe": "SLD.BaseWeapon.SkelliganAxe"
+				}
+			}
+		}
+	}
 }
