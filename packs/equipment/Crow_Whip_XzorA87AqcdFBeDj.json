@@ -2,6 +2,7 @@
   "_id": "XzorA87AqcdFBeDj",
   "img": "modules/magic-beans/art/icons/equipment/weapons/crow-whip.webp",
   "name": "Crow Whip",
+  "_key": "!items!XzorA87AqcdFBeDj",
   "system": {
       "baseItem": "crow-whip",
       "bonus": {
@@ -62,7 +63,7 @@
           "value": 0
       },
       "traits": {
-          "rarity": "uncommon",
+          "rarity": "rare",
           "value": [
               "reach",
               "versatile-p"

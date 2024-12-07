@@ -21,7 +21,7 @@
 			"path": "languages/en.json"
 		}
 	],
-	"version": "0.0.2",
+	"version": "1.0.2",
 	"relationships": {
 		"systems": [
 			{
@@ -37,7 +37,7 @@
 	"packs": [
 		{
 			"name": "equipment",
-			"label": "Equipment",
+			"label": "SDL Equipment",
 			"path": "packs/equipment",
 			"type": "Item",
 			"ownership": {
@@ -54,7 +54,8 @@
 		"magic-beans": {
             "pf2e-homebrew": {
                 "baseWeapons": {
-                    "skelligan-axe": "SLD.BaseWeapon.SkelliganAxe"
+                    "skelligan-axe": "SLD.BaseWeapon.SkelliganAxe",
+					"crow-whip": "SLD.BaseWeapon.CrowWhip"
 				}
 			}
 		}
