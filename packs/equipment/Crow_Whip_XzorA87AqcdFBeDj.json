@@ -1,0 +1,76 @@
+{
+  "_id": "XzorA87AqcdFBeDj",
+  "img": "modules/magic-beans/art/icons/equipment/weapons/crow-whip.webp",
+  "name": "Crow Whip",
+  "system": {
+      "baseItem": "crow-whip",
+      "bonus": {
+          "value": 0
+      },
+      "bonusDamage": {
+          "value": 0
+      },
+      "bulk": {
+          "value": 1
+      },
+      "category": "martial",
+      "containerId": null,
+      "damage": {
+          "damageType": "bludgeoning",
+          "dice": 1,
+          "die": "d6"
+      },
+      "description": {
+          "value": "<p>The Crow Whip is a chain-like weapon with a flexible metallic core. Made of Witcher-forged steel, its segments are linked by an alchemically treated spine, granting it both strength and fluidity. The whip can extend and retract, with a barbed tip forged to resemble a raven’s beak for precision strikes. Its design allows for devastating slashes, grappling maneuvers, and a lethal reach, combining the elegance of a whip with the power of a blade.</p>"
+      },
+      "group": "flail",
+      "hardness": 0,
+      "hp": {
+          "max": 0,
+          "value": 0
+      },
+      "level": {
+          "value": 0
+      },
+      "material": {
+          "grade": null,
+          "type": null
+      },
+      "price": {
+          "value": {
+              "gp": 3
+          }
+      },
+      "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Mafari's Forsaken Path"
+      },
+      "quantity": 1,
+      "range": null,
+      "reload": {
+          "value": ""
+      },
+      "rules": [],
+      "runes": {
+          "potency": 0,
+          "property": [],
+          "striking": 0
+      },
+      "size": "med",
+      "splashDamage": {
+          "value": 0
+      },
+      "traits": {
+          "rarity": "uncommon",
+          "value": [
+              "reach",
+              "versatile-p"
+          ]
+      },
+      "usage": {
+          "value": "held-in-one-hand"
+      }
+  },
+  "type": "weapon"
+}
