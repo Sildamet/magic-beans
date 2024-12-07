@@ -1,10 +1,10 @@
 {
   "_id": "XzorA87AqcdFBeDj",
   "img": "modules/magic-beans/art/icons/equipment/weapons/crow-whip.webp",
-  "name": "Crow Whip",
+  "name": "Crow Cross Whip",
   "_key": "!items!XzorA87AqcdFBeDj",
   "system": {
-      "baseItem": "crow-whip",
+      "baseItem": "crow-cross-whip",
       "bonus": {
           "value": 0
       },
@@ -22,7 +22,7 @@
           "die": "d6"
       },
       "description": {
-          "value": "<p>The Crow Whip is a chain-like weapon with a flexible metallic core. Made of Witcher-forged steel, its segments are linked by an alchemically treated spine, granting it both strength and fluidity. The whip can extend and retract, with a barbed tip forged to resemble a raven’s beak for precision strikes. Its design allows for devastating slashes, grappling maneuvers, and a lethal reach, combining the elegance of a whip with the power of a blade.</p>"
+          "value": "<p>The Crow Cross Whip is a chain-like weapon with a flexible metallic core. Made of Witcher-forged steel, its segments are linked by an alchemically treated spine, granting it both strength and fluidity. The whip can extend and retract, with a barbed tip forged to resemble a raven’s beak for precision strikes. Its design allows for devastating slashes, grappling maneuvers, and a lethal reach, combining the elegance of a whip with the power of a blade.</p>"
       },
       "group": "flail",
       "hardness": 0,

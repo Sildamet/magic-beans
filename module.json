@@ -55,7 +55,7 @@
             "pf2e-homebrew": {
                 "baseWeapons": {
                     "skelligan-axe": "SLD.BaseWeapon.SkelliganAxe",
-					"crow-whip": "SLD.BaseWeapon.CrowWhip"
+					"crow-cross-whip": "SLD.BaseWeapon.CrowCrossWhip"
 				}
 			}
 		}

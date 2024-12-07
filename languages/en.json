@@ -1,7 +1,8 @@
 {
     "SLD": {
         "BaseWeapon": {
-            "SkelliganAxe": "Skelligan Axe"
+            "SkelliganAxe": "Skelligan Axe",
+            "CrowCrossWhip": "Crow Cross Whip"
         }
     }
 }
